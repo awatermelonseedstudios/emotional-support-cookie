@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+}
+
+.container img {
+    cursor: pointer;
+    width: 40%;
+}
+
+.image2, .image3, .image4 {
+    display: none;
+    text-align: center;
+}
