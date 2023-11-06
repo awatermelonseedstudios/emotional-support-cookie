@@ -1,13 +1,37 @@
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
 .container {
-    margin-top: 5vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+}
+
+h1 {
+    margin: 0 0 calc(2vh + 6px) 0;
+    font-family: "Shadows Into Light Two", Arial, sans-serif;
+    font-size: calc(4vh + 6px);
+    color: #563823;
+}
+
+h2 {
+    margin: 0 0 calc(2vh + 20px) 0;
+    font-family: "Shadows Into Light Two", Arial, sans-serif;
+    font-size: calc(4vh + 2px);
+    color: #563823;
 }
 
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
 }
 
 .content img {
@@ -15,6 +39,12 @@
     height: 100%;
 }
 
-.image2, .image3, .image4, .msg {
+.hidden {
     display: none;
+}
+
+.msg {
+    font-family: Shadows Into Light Two, Arial, sans-serif;
+    font-size: calc(4vh + 2px);
+    color: #805434;
 }

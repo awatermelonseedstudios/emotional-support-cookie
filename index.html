@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Emotional Support Cookie</title>
+        <title>Emotional Support Cake</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Pangolin&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <div class="container">
-            <h1>Emotional Support Cookie</h1>
+            <h1>Emotional Support Cake</h1>
+            <h2>*click to munch*</h2>
             <div class="content">
-                <img class="image1" src="assets/cookie1.png" onclick="showNext('.image1', '.image2')"/>
-                <img class="image2" src="assets/cookie2.png" onclick="showNext('.image2', '.image3')"/>
-                <img class="image3" src="assets/cookie3.png" onclick="showNext('.image3', '.image4')"/>
-                <img class="image4" src="assets/cookie4.png" onclick="showNext('.image4', '.msg')"/>
-                <h2 class="msg">You're doing a great job, I'm proud of you!</h2>
+                <img class="image1" src="assets/cake-1.png" onclick="showNext('.image1', '.image2')"/>
+                <img class="image2 hidden" src="assets/cake-2.png" onclick="showNext('.image2', '.image3')"/>
+                <img class="image3 hidden" src="assets/cake-3.png" onclick="showNext('.image3', '.image4')"/>
+                <img class="image4 hidden" src="assets/cake-4.png" onclick="showNext('.image4', '.image5')"/>
+                <img class="image5 hidden" src="assets/cake-5.png" onclick="showNext('.image5', '.msg')"/>
+                <h2 class="msg hidden">You're doing a great job, I'm proud of you</h2>
             </div>
         </div>
     </body>
